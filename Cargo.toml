@@ -3,9 +3,15 @@ name = "ortho"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.88.0"
-license = "Apache-2.0"
+description = "A CLI board game where two players select rows and columns, place stones at their intersections, and race to make k-in-a-row."
+# documentation = ""
 readme = "README.md"
-exclude = [".gitignore", ".gitattributes", ".github/*"]
+# homepage = ""
+repository = "https://github.com/hyperfinitism/ortho"
+license = "Apache-2.0"
+# keywords = []
+# categories = []
+include = ["src/**/*", "LICENSE"]
 
 [dependencies]
 clap = { version = "4.6.0", features = ["derive"] }
